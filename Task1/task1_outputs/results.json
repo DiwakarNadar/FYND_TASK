@@ -1,0 +1,3608 @@
+{
+  "A": [
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"The reviewer mentions that the food is good and the price is good, indicating a positive experience.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The review is extremely positive, praising the store's cleanliness, product selection, management, and customer service.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language, mentioning they 'liked it, very much so' and highlighting several strengths, including ambiance, food, and drinks.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"The reviewer expresses strong disappointment and frustration with the food quality, service, and ambiance, using words like 'disappointment', 'fishy', 'mealy-textured', 'dismal', and 'no redeeming features'.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer praises instructors, class ratio, and management, but deducts a star due to an issue with the indoor pool's skylights affecting their daughter's lessons.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'great' and 'best' and expresses intention to return, indicating a very positive experience.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language, mentioning that the place is perfect for their family and highlighting several specific strengths, including the food, cleanliness, and staff friendliness.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer mentions some positive aspects, such as new restaurants and a pleasant walk, but also expresses frustration with the lack of shops and the presence of teenage kids, resulting in a mediocre rating.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language, such as 'Wow', 'love', 'fantastic', and 'delicious', indicating a high level of satisfaction.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses positive language, mentions specific benefits and unique features, and expresses loyalty.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer mentions good food, generous portions, and reasonable prices, with only a minor complaint about the dining room.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer mentions they 'love the place' and it 'turned out to be quite good', indicating a positive experience.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer loves the drinks and service, but deducts a star due to high prices.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language, calling Pei Wei a 'family favorite' and stating that the food is 'always tasty' and 'at a fair price'.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"Reviewer had issues with room temperature and outdated features, but liked the check-in/check-out kiosks.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer mentions 'fair pricing' and 'no upselling', indicating a positive experience, but also warns about the business being busy, which might be a drawback.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer mentions good food and a good beer selection, but also notes that the place is now always busy and crowded, which might be a drawback.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses extremely positive language throughout the review, mentioning multiple dishes they 'insist' others try and stating they could eat one dish 'every day of my life'.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer mentions 'Great food' and 'nice', indicating a positive experience, but also mentions the place is 'a bit old', preventing a perfect score.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses phrases such as 'I LOL just thinking about', 'blew me away', and 'tons of LOL moments' to describe their experience, indicating a very positive and entertaining experience.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer mentions some positive aspects, but overall experience was disappointing due to overpriced and poorly prepared food.\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer expresses strong dissatisfaction with menu options and flavors.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses very positive language, mentioning freshness, variety, and quality of products, and expresses enthusiasm and loyalty to the store.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses very positive language, such as 'my kind of hang', 'I just love you', and 'gem of a bar', indicating a strong affection for the place.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language, mentioning multiple strengths with no criticisms.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'as good as everyone says' and mentions a good value for the price.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer explicitly states they give it 5 stars and provides several positive comments about the food and service.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer praises the gym's new condition, amenities, and cleanliness, but deducts a star due to lack of certain equipment and concerns about future maintenance.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer expresses enthusiasm and satisfaction with their experience at OTFM, using phrases such as 'not disappointed', 'heaven exploded in my mouth', and 'damn good burritos'.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer praises food quality and price, but deducts a star for crowds and Sunday closure.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses superlatives such as 'Holy Cow!!!' and 'fabulous' to describe their experience, and mentions excellent customer service and a great meal.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer praises the concept, seat selection, and service, but criticizes the declining food quality, high prices, and poor food preparation.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer mentions both positive and negative aspects, but overall seems satisfied with the service despite some issues, warranting an average rating.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer uses strong negative language, indicating extreme dissatisfaction.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer explicitly mentions upgrading from 4 to 5 stars and uses very positive language throughout the review.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer expresses strong dissatisfaction with staff and food quality.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer mentions getting a great product on sale, a good selection of other items, and a pleasant shopping experience.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language, calling the restaurant 'great', 'delicious', and 'highly recommended', indicating a 5-star review.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer expresses extreme fondness and loyalty to the establishment, mentioning a long history of patronage and a strong craving for their food when away.\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"The reviewer had high expectations but was disappointed with the slow service, cold and undercooked food, and unfriendly staff, despite liking the concept and atmosphere.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses positive language, mentioning love for the pizza and atmosphere, and highlights a great deal, indicating a very positive experience.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer found some good deals, but didn't find anything for themselves and mentioned a debit card fee, indicating a neutral experience.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer provides a detailed and positive account of the mall's history, amenities, and current state, indicating a high level of satisfaction.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer mentions decent service and convenient location, but also notes that service was 'so so' and waiter was in training, indicating an average experience.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language, such as 'fabulous' and 'top rate', indicating a high level of satisfaction.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses extremely positive language, mentions specific dishes they enjoyed, and states there is nothing bad to say about the place.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer enjoyed the lunch buffet, liked the flavors, and appreciated the value, but had some minor concerns about food quality.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'totally dependable' and 'always excellent', indicating a very high level of satisfaction.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer enjoyed their food, but was put off by the prominent display of bible verses.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer praises food and service, but deducts a star due to frequent presence of large groups with young children.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses very positive language, mentioning that everything is 'charming and scrumptious' and that they've 'never been disappointed' by the food.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer had a neutral experience, mentioning both positive and negative aspects, but overall seemed to find the bar acceptable but not exceptional.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses superlatives such as 'Love', 'delicious', 'perfect', and 'can't beat that' to describe their experience, indicating a very positive review.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer had mixed experience with service and atmosphere, but enjoyed food and appreciated attentive busboys.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses superlatives such as 'the best' and 'always delicious', indicating a very positive experience.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer is neutral, mentioning both positive and negative aspects, but overall seems unimpressed.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer had mixed experience, disliking the pizza but enjoying the atmosphere and dessert, and willing to give the restaurant another try.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"Reviewer had mixed experience with some dishes being a treat, but others being awful, with a strong negative tone towards the inconsistency.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language, mentioning a 'great sandwich' and 'excellent' pasta, and only has a minor complaint about mushrooms.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses superlatives such as 'perfectly crunchy' and 'beautifully spiced', and expresses enthusiasm and surprise at finding a restaurant that meets their high standards for empanadas.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer mentions being underwhelmed, greasiness, poor taste, and burnt crust.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'Always fresh' and 'perfectly prepared', indicating a high level of satisfaction.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'new favorite', 'AMAZING', and 'the best I have ever had', indicating a very positive experience.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language, mentioning they are 'never disappointed' and that the servers are 'genuine'. They also mention specific dishes they enjoy and that they eat there frequently.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language, such as 'incredibly caring', 'authenticity', and 'definitely recommend', indicating a high level of satisfaction.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer mentions mixed experience with dishes, but overall seems satisfied with the meal and prices.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language, mentioning specific menu items they love and a great atmosphere.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer had mixed experience, enjoyed some aspects like vodka tonic and flavors, but had issues with waiter's honesty and portion size.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer mentions 'good Chinese food' and 'great value', indicating a positive experience, but does not use superlatives or indicate an exceptional experience.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer had a very poor experience with service, including being ignored, overcharged, and receiving no apology from staff or management.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer expresses dissatisfaction with long wait time, low-quality ingredients, and unprepared drink, stating they will not return.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses extremely positive language, mentioning they 'lose all self control' and would 'eat here every day' if possible, indicating a 5-star experience.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer expresses enthusiasm and satisfaction with their experience at Second Chance FitCenter, citing a sense of accomplishment, strength building, and good teaching.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer mentions specific positive aspects of the pizza and indicates frequent visits, suggesting a high level of satisfaction.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses extremely positive language, mentioning their favorite location, excellent customer service, and a specific instance of a problem being resolved with a complimentary replacement drink.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer uses positive language, mentions a specific and popular item, and highlights good value, but deducts a star for long wait time.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language, such as 'Awesome' and 'a must-do', indicating a high level of enthusiasm and satisfaction.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses positive language, such as 'So great' and 'A great street style joint', and mentions specific strengths like friendly staff and convenient location.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses extremely positive language to describe Dr. Karawi, highlighting his friendly and professional demeanor, and expressing gratitude for his services.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses superlatives such as 'even better', 'simply amazing', 'fantastic', and 'delicious' to describe their experience, indicating a very positive review.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses positive language, mentions specific dishes they enjoyed, and expresses willingness to return.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"The reviewer was very pleased with the organization, accessibility, and variety of shops and food, but had some minor issues with the staff's enthusiasm and the value for the price.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer expresses strong dissatisfaction with the pizza quality, comparing it unfavorably to fast-food delivery pizza, but acknowledges good service.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer finds the food decent but overpriced for dinner, and notes that the restaurant is best for lunch specials, with some issues with spice levels.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses very positive language, mentioning that the food was 'delicious', the host and servers were 'terrific', and the restaurant was 'nicely appointed'.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"The reviewer expresses strong disappointment with the service and food quality, citing slow refills, forgotten orders, and bland flavors.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer had a positive experience with great service, cute atmosphere, and convenient amenities.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'Great', 'fantastic', and 'highly recommend', indicating a very positive experience.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses positive language throughout, mentions specific enjoyable aspects, and states they will return.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language throughout the review, mentioning 'tasty', 'flavorful', 'tender', 'juicy', and 'GOOD SERVICE'. They also mention they will return, indicating a high level of satisfaction.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses enthusiastic language and expresses excitement about the sales and products, indicating a very positive experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'Perfect', 'ninja light speed fast', and 'can't go wrong', indicating a very positive experience.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language, such as 'Love this studio', 'one of the best yoga classes', and 'Best part', indicating a high level of satisfaction.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses very positive language, such as 'I'm glad I did', 'Yum!', and 'can't wait to go back', indicating a high level of satisfaction with their experience.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses positive language throughout, mentioning attentive service, delicious food, and a lovely atmosphere, with only a minor complaint about lighting.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer had a great experience, enjoyed their meal, and mentioned specific positive details about the food.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer mentions both positive and negative aspects, but overall tone is favorable, indicating a 4-star rating.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses positive language and mentions specific products they love, indicating a very positive experience.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer had a poor experience due to unexpected charges and mediocre food.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language, such as 'EXCELLENT', 'LARGE', and 'MEATY', to describe the food, indicating a high level of satisfaction.\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"The reviewer had a poor experience with wait time and customer service, but mentioned the food was good.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'great' and 'rocked', indicating a very positive experience.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer found the coffee shop to be clean and convenient, but not particularly exceptional.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"The reviewer had a extremely negative experience, citing poor service, unprofessional behavior, and low-quality work.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer mentions '4 star rating' and praises server's hospitality\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses very positive language, mentioning that attendees 'absolutely loved' the product and that it was a 'nice compliment' to their event.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses superlatives such as 'Great service', 'great food', and 'the best two burgers' to describe their experience, indicating a very positive sentiment.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses extremely positive language, listing several strengths of the airline with no criticisms.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer mentions several positive aspects, including comfy bed, nice amenities, and good value, with only a minor criticism of the decor.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses extremely positive language throughout the review, mentioning that the restaurant exceeded their expectations and that the food and drinks were excellent.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses very positive language, such as 'AWESOME' and 'so good smelling prize', and mentions that the quality and freshness of the food exceeded their expectations.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer had a neutral experience, mentioning both positive and negative aspects, but overall seemed unimpressed.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer mentions several negative aspects, including limited hours and inability to find desired books, but also expresses general love for bookstores.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses very positive language, stating the restaurant never disappoints and the food is always good.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer had a very positive experience, praising the resort's staff, amenities, and cleanliness, but deducted a star due to a poor experience at the poolside bar and high WiFi prices.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer expresses strong disappointment with food quality and authenticity, citing small portions and low-quality ingredients.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'super friendly', 'AWESOME!!!', and 'highly recommend' to describe their experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses positive language throughout, mentioning multiple favorite dishes and good service.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses superlatives such as 'amazing', 'dreamlike', and 'darn diggity goodness' to describe their experience, indicating a very positive sentiment.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'LOVE' and 'heaven' to describe their experience.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer explicitly states the business is closed, indicating a negative experience.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"The reviewer expresses strong dissatisfaction with the restaurant's ambiance, service, and food quality.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses positive adjectives 'tiny' and 'awesome' to describe the product.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer mentions some positive aspects, such as fun slides and a great night splash experience, but also lists several negative points, including poor maintenance, disorganized lines, and untrained staff.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer explicitly states they updated to 5 stars and praises the pizza as the best in the valley.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"Reviewer mentions both positive and negative aspects, but overall tone is more negative, with criticisms of food quality and service.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses extremely positive language, such as 'I LOVE this bar' and 'love affair', and mentions multiple specific reasons why they enjoy the bar, including friendly staff, good food, and entertainment options.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'sinfully delicious' and 'amazing', indicating a very positive experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer mentions excellent waitstaff, great menu choices, and better food than a comparable restaurant, indicating a very positive experience.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer praises food and service, but criticizes pricing strategy and atmosphere, leading to a mediocre rating.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'efficient', 'clean', and 'well stocked', indicating a very positive experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The review is extremely positive, using words like 'fun', 'entertaining', and 'pretty accurate' to describe the experience.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer praises the hotel's cleanliness, comfort, and modern decor, but notes some minor drawbacks, overall indicating a positive experience.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"Reviewer was not impressed with their experience, citing mediocre food and only friendly service as a redeeming quality.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer expresses love for the barbecue sauce and mentions it as one of the best.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer had mixed experience with some pleasant surprises, but also frustration with pricing and store organization.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer mentions several strengths, including large portions, enjoyable atmosphere, and fresh food, with only a minor drawback of being somewhat pricey.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses extremely positive language throughout the review, mentioning the facility's cleanliness, spacious areas, and high-quality service for both clients and animals.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language throughout the review, mentioning specific dishes and ambiance, and stating they 'can't wait to go back'.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer enjoyed the sandwiches and cookies, but had some minor complaints about the subs being too oily and not being a fan of pickles.\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer had a poor experience due to incorrect business hours and unprepared staff.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language to describe the food and service, indicating a high level of satisfaction.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer had a great time, enjoyed local goods and pet-friendly atmosphere, but had a minor negative encounter.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'great', 'best', and 'fantastic' to describe their experience.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer praises the venue for hosting metal shows, but criticizes the bar prices and notes some minor issues with the beer menu.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses superlatives such as 'one of the best' and 'the best spot by far', indicating a very positive experience.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses very positive language throughout the review, mentioning a 'great experience', 'friendly staff', and 'great coffee'. They also mention specific details they enjoyed, such as the flavor of the muffin and the atmosphere.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses positive language, mentions enjoyment and large portions.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer mentions great food, but bad service and language barrier, indicating a mediocre experience.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses very positive language, such as 'I love', 'Excellent', 'Reasonably priced', and 'A must see', indicating a high level of satisfaction.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer had a very poor experience with long wait times, unacknowledged greetings, out-of-stock items, and a perceived lack of cleanliness.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer has eaten at the restaurant multiple times, praises the service, food, and atmosphere, and only deducts a star because it doesn't 'blow them away'.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer praises the quality of ingredients and the shop's reputation, but deducts a star for the location's outdated appearance.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses extremely positive language, such as 'huge fan', 'incredible', and 'wonderful', indicating a 5-star rating.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer mentions several positive aspects, including size, drive-thru, and decent coffee, with only minor drawbacks.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses extremely positive language, such as 'best dojo I have ever run across', 'very surprised and impressed', and 'I would recommend this dojo to anyone'. They also mention specific strengths, like the welcoming atmosphere and excellent teachers.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses superlatives such as 'unmatched' and expresses gratitude, indicating a very positive experience.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses enthusiastic language and provides detailed, positive descriptions of their experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer mentions friendly service, large portions, and great food, with only a minor complaint about a smell that is not considered disgusting.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'best', 'awesome', and 'so much cheaper and better' to describe the store.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer had a positive experience, enjoyed their food, and plans to return, but didn't seem overly impressed.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses very positive language, such as 'Great product' and 'We'll be going back that's for sure!', indicating a high level of satisfaction.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer had several negative experiences, including limited menu options, high prices, poor service, and unpalatable water, but did mention some positive aspects of the food.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'Great ambiance', 'Best dish in recent memory', and 'Totally coming back' indicating a very positive experience.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer mentions getting a great deal and praises the friendly and knowledgeable staff.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses extremely positive language, such as 'HUGE fan' and 'AMAZING', and mentions that the restaurant is a 'go-to' for them, indicating a high level of satisfaction and loyalty.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer had mixed experience with unique and quaint atmosphere, but poor customer service and disappointing food.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer mentions a few positive aspects, but the negative comments about price increase and poor customer service outweigh them.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses superlatives such as 'amazing' and 'can't beat that price', indicating a very positive experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language, mentioning a wide variety of options, enjoying their meal, and good service.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer has been a loyal customer for 10 years, praising the food, service, and atmosphere, with no negative comments.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses phrases such as 'one of my new favorites', 'worth going to over and over again', and 'delicious' to describe their experience.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer mentions that the food is 'so-so' and the service is 'pretty good', indicating a neutral experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer explicitly states they are giving 3 stars, citing a positive experience with the veggie sandwich, but also mentions drawbacks such as slow service.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The review is extremely positive, using vivid language to describe a memorable experience at Sonic Drive-In.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language, mentioning they were 'very impressed' and highlighting several amenities and services. They also mention the store is 'Nice and Clean' and had a pleasant experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language throughout the review, mentioning specific strengths of the hotel and its staff, and stating that it was 'worth every penny'.\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"The reviewer expresses strong disappointment and uses negative language to describe their experience, comparing the bar to Coldplay's music, which they imply is soulless and unoriginal.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer uses very positive language, such as 'The mall of malls', 'fabulous', 'excellent', and 'shopper's bliss', indicating a highly satisfied experience.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"The reviewer uses superlatives such as 'the BEST' and states they are 'hooked' on the tamales, indicating a very positive experience.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer had a generally positive experience, praising the food and kids menu, but had a minor complaint about the server.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'Amazing' and expresses a strong desire to have the experience more frequently.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    }
+  ],
+  "B": [
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"positive, mentions good value\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive review with praise for store, management, and customer service\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with multiple compliments\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"extremely negative\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"mostly positive, but with one notable criticism\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"very negative\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with multiple specific praises\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"mixed experience, some positive and negative aspects\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with multiple specific praises\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"positive review with minor criticism\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"generally positive with some initial hesitation\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"mostly positive, but with a price concern\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"mixed but leaning negative due to major issues with room temperature and outdated features\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"mostly positive with a warning\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive, mentions good food and beer, but also notes crowds\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"glowing review with multiple specific positive experiences\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive with minor criticism\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"negative, high expectations not met\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"negative\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with many specific details\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with multiple compliments\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive, but with some minor drawbacks\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive, but with some negative comments\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"extremely positive review with enthusiastic language and praise for food, staff, and service\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"mixed but mostly negative due to declining food quality and high prices\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"mixed review with more cons than pros, but still appreciative of good service and value\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"strongly negative\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"extremely positive\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"strongly negative\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"negative due to long wait, cold and undercooked food, poor service\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"neutral, decent prices and selection, but nothing exceptional\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"mostly positive, nostalgic and informative review\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"neutral, mixed experience with decent location and average service\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"positive\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"glowing review with multiple positive comments\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive, some reservations\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"glowing review with superlatives\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"mostly positive, but with a notable criticism\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"mostly positive, minor complaints\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"neutral, mixed feelings about the bar\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with multiple dishes praised\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive, some minor complaints\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with specific praise for servers, food, and menu\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"neutral, mixed review with both positive and negative comments\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"mixed review, criticizes pizza but praises atmosphere, service, and dessert\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"mixed but mostly negative\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive, with only minor complaints\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"negative\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive review with multiple highlights\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"glowing review with enthusiastic language and specific praise\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"mixed review with both positive and negative comments\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive, enthusiastic language and specific praise for multiple menu items\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"mixed experience with some positive and negative comments\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"positive, mentions good food and service, despite some minor drawbacks\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"extremely negative experience with poor service\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"negative due to long wait, low-quality ingredients, and poor kids menu options\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive review with multiple praises\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"extremely positive review with enthusiastic language and high praise for food, service, and atmosphere\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"positive review of pizza quality and frequent visits\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"extremely positive review with multiple specific praises\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive, but mentions a drawback\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"extremely positive\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with enthusiastic language\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"enthusiastic and positive review\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with multiple compliments\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive, with some minor criticisms\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"negative\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"neutral, mentions both positive and negative aspects\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with multiple compliments\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"negative due to poor service, bland food, and high prices\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with multiple compliments\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with specific praise for food, service, and atmosphere\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with praise for food, service, and value\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive, enthusiastic language and detailed praise for food\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive, with only a minor criticism\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with specific praise for food and atmosphere\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive, some minor complaints\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with specific examples\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"negative due to hidden charges and poor communication from staff\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with multiple specific praises\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"neutral, mentions both positive and negative aspects, but overall average experience\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"extremely negative experience with poor service and quality\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"server's friendly disposition and unique accent made a positive impact\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive, enthusiastic language and specific examples of successful events\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"exceptionally positive\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"mostly negative, some positive aspects\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"mostly positive with minor criticisms\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"exceptionally positive review with glowing praise for food, drinks, and service\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"glowing review with enthusiastic language\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"neutral, mixed experience with some positive and negative aspects\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"mostly negative, with some neutral and positive sentiments\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"negative\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with enthusiastic language\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with multiple specific praises\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive review with enthusiastic language and detailed tips\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"negative\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"extremely negative\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"mixed experience with some positive and negative aspects\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"glowing review with superlatives\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive review with multiple specific praises\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive, enthusiastic language used to describe food\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"mixed review, praising food and service but criticizing pricing and business model\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"generally positive with some minor criticisms\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"positive\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"mostly positive, but with some negative comments about price\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"mixed experience with some positive and negative aspects\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"glowing review with minor service issue\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive with some minor criticisms\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"negative\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with multiple specific compliments\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"mostly positive with minor complaints\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"neutral, mixed assessment of venue and bar\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"extremely positive\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with multiple specific compliments\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"generally positive, but with some criticisms\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"mixed but leaning negative\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with multiple specific praises\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"very negative\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"extremely negative\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"positive, but not perfect\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"generally positive with minor criticism\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive with some neutral comments\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive review with glowing praise\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"extremely positive\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive, enthusiastic and detailed review\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with specific praise for food and service\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"generally positive, with some neutral comments\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"mostly negative, with some positive comments about food quality, but overall disappointing experience\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive, with only minor criticisms\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"mixed experience with good food and beer, but slow service\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive with some minor criticism\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"mixed experience with unique products and setting, but poor customer service and disappointing food\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"extremely negative due to cleanliness and product quality issues\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"negative due to high price increase and poor customer service\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"extremely positive\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with multiple compliments\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with multiple compliments\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"very positive review with minor criticisms\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"mixed experience, neutral overall\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"mixed review, but overall neutral\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"overwhelmingly positive, enthusiastic, and dreamy tone\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with multiple compliments\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with many specific compliments\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"scathing review with strong negative language\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"extremely positive\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"mostly positive with minor complaint\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"extremely positive\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"very positive review with specific praise for menu, prices, and food quality\"\n}"
+    }
+  ],
+  "C": [
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer mentions good food and price, indicating a mostly positive experience.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses extremely positive language throughout the review, mentioning the store's cleanliness, quality products, excellent management, and great customer service.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language throughout the review.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer expresses extreme dissatisfaction with food quality and service.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer praises instructors, class ratio, and management, but deducts a star due to an issue with the indoor pool's skylights.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and expresses strong enthusiasm and intent to return.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer is extremely enthusiastic about Bikram yoga and the specific studio, mentioning numerous benefits and praising the instructors and atmosphere.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language throughout the review.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer mentions some positive aspects, but also several negative points, resulting in a mixed assessment.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and mentions multiple strengths of the restaurant.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer is mostly positive about the food quality and value, but neutral about the dining experience.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer had initial hesitation but was pleasantly surprised\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer loves the drinks and service, but is deterred by high prices.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language, mentioning it's a 'family favorite' and the food is 'always tasty'.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer had issues with room temperature and outdated features, but liked the kiosk system.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer praises fair pricing and no upselling, but criticizes the busy atmosphere.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer praises food and beer, but criticizes crowded atmosphere.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and enthusiastic language to describe their experiences at PCG.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer mentions great food and cleanliness, but criticizes the age of the establishment.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses phrases like 'I LOL', 'blown away', and 'tons of LOL moments' to describe their experience, indicating a very positive review.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer had mixed feelings, but mostly negative comments about the food.\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer expresses strong dislike for menu options and flavors.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language and mentions multiple strengths of the store.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and expresses enthusiasm for the bar's atmosphere, selection, and location.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language throughout the review.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and mentions value for money.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives and enthusiastic language to describe their experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer is mostly positive, but deducts a star due to some equipment limitations and concerns about future cleanliness.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer had a very positive experience at the market, enjoying multiple food items and vendors.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer praises food quality and price, but criticizes crowds and Sunday closure.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer raves about food, service, and staff, with no major complaints.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"Reviewer praises concept, seat selection, and service, but heavily criticizes food quality and value.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer mentions both positive and negative aspects, but overall seems satisfied with the service despite some issues.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"reviewer uses strong negative language\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer frequently visits, loves the food, drinks, and service, and praises the business.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer expresses strong dislike for the restaurant, criticizing the staff and food.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer mentions getting a great product on sale and appreciates the store's selection and atmosphere.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'great', 'delicious', and 'highly recommended'.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer expresses extreme fondness and loyalty to the establishment.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"Reviewer had high expectations but was disappointed with long wait times, cold and undercooked food, and poor service.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and mentions multiple strengths.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer found some good deals, but didn't find anything for themselves.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"mostly positive review with some neutral comments\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer had mixed experience with decent location but mediocre service.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer is a repeat customer and implies the restaurant meets their high standards.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language to describe food and service.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives and expresses love for the restaurant, citing excellent service, food, and atmosphere.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer had mixed feelings but overall enjoyed the lunch buffet and liked the place.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer praises restaurant as dependable and excellent with great service and food.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer enjoyed the food, but was put off by the overt display of religious messages.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer praises food and service, but deducts a star due to frequent presence of loud families.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and mentions several strengths with only minor weaknesses.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer had mixed feelings, didn't love it but would return for a few drinks\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'I really Love this place' and 'OMG it was just delicious' to describe their experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer had mixed experience with some positive aspects like food and service, but also some negative aspects like seating and temperature issues.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and praises multiple aspects of the restaurant.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer had mixed experience with disappointing pizza, but enjoyed dessert and atmosphere.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer had mixed feelings, but mostly negative comments about the food and inconsistent results.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer loves the food and prices, with only a minor complaint about mushrooms.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer mentions being underwhelmed, greasiness, and burnt crust, indicating a very negative experience.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and indicates the restaurant is a top choice.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language and mentions multiple strengths of the restaurant.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer is extremely satisfied with the vet and praises their caring and helpful nature.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer praises food, cleanliness, and staff, but criticizes price.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer had mixed opinions on dishes, but overall experience was positive due to a standout dish and reasonable prices.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer enjoyed the food and atmosphere, but didn't seem overly enthusiastic.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer had mixed experience with food and service, but found some aspects enjoyable.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer praises the food and value, but mentions the building looks run-down.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer had a very poor experience with service and billing issues.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer had a poor experience with long wait time, low-quality ingredients, and unprepared drink.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'best burger I have ever eaten' and 'amazing' to describe their experience.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and expresses extreme enthusiasm for the restaurant.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer expresses enthusiasm and satisfaction with their experience at Second Chance FitCenter, citing a great teacher and significant progress in their fitness goals.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer praises the destination and mentions frequent visits.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer is extremely satisfied with Dutch Bros, praising their customizable drinks, excellent customer service, and loyalty program.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer loved the food and price, but had a long wait.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'Amazing' and 'out of this world', indicating a very positive experience.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'Awesome' and 'HUGE' and states that a visit is a 'must-do'.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer praises the pizzeria and its staff, and provides a helpful tip.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Glowing review with extremely positive language\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'even better', 'simply amazing', and 'fantastic' to describe their experience.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer enjoyed food and service, and expressed willingness to return.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer had a very negative experience with the food, but praised the service.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer has mixed feelings, praising speed and lunch specials but criticizing dinner prices and lack of authenticity.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer had a mostly negative experience due to poor service and bland food.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer had a great experience with service, atmosphere, and flexibility.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'Great' and 'fantastic', and explicitly states they 'highly recommend' the establishment.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer had a very positive experience with the food, service, and atmosphere.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language throughout the review, mentioning 'GOOD SERVICE', 'HAPPY with my selections', and 'We'll be back'.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses enthusiastic language and expresses excitement about sales and products.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and emphasizes exceptional speed and quality of food.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and expresses love for the studio and its classes.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language and expresses enthusiasm for the food and experience.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer had a very positive experience with attentive service, delicious food, and intimate dining, with only a minor complaint about lighting.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer had a great experience with flavorful food and no issues with seating or parking.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language to describe the food and experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer mentions both positive and negative aspects, but overall tone is mostly positive.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and mentions specific products they love.\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer had a negative experience due to unexpected charges and mediocre food.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language to describe the food.\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"Reviewer had a long wait time and issues with their order, but acknowledged the food was good.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language, mentioning that the food, service, and beers were all great.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer found the coffee shop to be clean and convenient, but unremarkable.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer had a very negative experience with poor service and low-quality work.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and mentions multiple successful events with Yuri's products.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer had a consistently great experience with excellent service and food.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Glowing review with multiple specific strengths mentioned\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer had high hopes but was disappointed with the ramen and freshness of other dishes.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer mentions several positive aspects, but also criticizes the decor.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer had a very positive experience with excellent food, drinks, and service.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'AWESOME' and expresses enthusiasm for the food and staff.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer mentions several negative aspects, including limited hours and inability to find desired books, but also expresses general love for bookstores.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives and emphasizes consistency of quality.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer had a mostly positive experience, but deducted stars for poor service at the poolside bar and high WiFi prices.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"Reviewer was disappointed with the quality and authenticity of the Greek food.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer had a great experience with friendly staff, excellent food, and highly recommends specific menu items.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer frequently visits and praises multiple menu items and service.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer is extremely enthusiastic and had a very positive experience\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses extremely positive language, such as 'LOVE' and 'heaven', to describe their experience.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer explicitly states the business is closed and uses a tone of finality and dismissal.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer had a very negative experience with poor service, unfriendly staff, and low-quality food.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives to express enthusiasm.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer had mixed feelings, citing some positive aspects like fun slides and Night Splash, but also mentioning several negative aspects like poor maintenance, disorganized lines, and untrained staff.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer upgraded to 5 stars, praising the pizza as the best in the valley.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 2,\n    \"explanation\": \"Reviewer mentions some positive aspects, but mostly focuses on negative aspects such as weak breakfast potatoes and slow service.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses extremely positive language and shares multiple specific, glowing experiences.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer enjoyed the food, but found it too indulgent, indicating a mostly positive experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer had initial doubts but was pleasantly surprised by excellent service, great menu choices, and nice atmosphere.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer is extremely satisfied with the post office's efficiency and cleanliness.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"reviewer uses positive language and mentions specific benefits\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer had a mostly positive experience, praising the room's cleanliness, comfort, and decor, but had some minor complaints about the property's amenities.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer loves both places and uses superlatives to describe them.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"mixed review due to high quality products but high prices\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer had mixed feelings, finding some great deals but also experiencing frustration with pricing and store organization.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer enjoyed the atmosphere, food, and bakery, but mentioned it was somewhat pricey.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"The reviewer had a very positive experience with the Arizona Humane Society, praising their facilities, staff, and services.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language throughout the review, mentioning specific strengths and no major weaknesses.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer had mixed feelings, but overall enjoyed the sandwiches and especially the cookies.\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer had a poor experience due to incorrect hours and unpreparedness of the establishment.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language throughout the review.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer had a great time, loved the pet-friendly atmosphere and local goods, but had a minor negative encounter.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives such as 'great' and 'best' to describe their experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer praises the venue for hosting metal shows, but criticizes the bar for high prices and typos on the beer menu.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and strongly recommends the barber.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer loved everything about the restaurant\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language throughout the review.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and mentions enjoyment.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer praises food quality, selection, and atmosphere, but criticizes prices and recent decline in fry quality.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer had a mixed experience with great food but poor service.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and highly recommends the attraction.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer had a very poor experience with long wait times, unavailability of menu items, and poor service.\"\n}"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 1,\n  \"explanation\": \"Reviewer expresses strong disappointment and frustration with the food quality and taste.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer has a long history with the restaurant and has mostly positive experiences with the food, service, and atmosphere.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer praises the quality of ingredients and the shop's reputation, but criticizes the location's appearance.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives and expresses enthusiasm for the restaurant.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer mentions several positive aspects, but also some neutral and slightly negative comments.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and enthusiastic language to describe their experience.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer praises staff friendliness and customer service.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer had a positive experience, but mentions potential drawbacks such as getting lost and needing a map.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer frequently visits, praises friendly service, and enjoys multiple menu items.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'best' and 'awesome', and mentions specific positive aspects of the store.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 4,\n    \"explanation\": \"Reviewer had a generally positive experience, enjoyed their food, and plans to return, but didn't seem overly impressed.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and expresses intention to return.\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer had several negative experiences, including limited menu options, high prices, and poor service, despite some positive comments about the food quality.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer praises ambiance, food, service, and views, with only minor criticisms.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": null,
+      "valid_json": false,
+      "raw": "LLM Error: 'choices'"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer enjoyed the atmosphere, service, and most of the food, but disliked the Caesar salad.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer mentions a great deal and friendly, knowledgeable staff.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and enthusiastic language to describe their experience.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer praises excellent customer service and quality drinks.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 3,\n    \"explanation\": \"Reviewer had mixed experience with unique products and quaint atmosphere, but poor customer service and disappointing food.\"\n}\n"
+    },
+    {
+      "actual": 1,
+      "pred": 1,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 1,\n    \"explanation\": \"Reviewer hated the store's cleanliness and selection.\"\n}\n"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer mentions a few positive aspects, but is mostly dissatisfied with the price increase and poor customer service.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and enthusiastic language to describe the food and drinks.\"\n}\n"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses very positive language throughout the review.\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer has been a long-time customer, praises food, service, and atmosphere, with only minor complaints about parking.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer praises the food and uniqueness, but mentions drawbacks like cramped atmosphere and long wait times.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer has mixed feelings, mentioning both positive and negative aspects of their experience.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer is generally satisfied with Mountain House products, but has tempered expectations about the quality of the food.\"\n}"
+    },
+    {
+      "actual": 3,
+      "pred": 3,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 3,\n  \"explanation\": \"Reviewer mentions a positive aspect, but also several negative aspects, resulting in a mixed rating.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Glowing review with vivid language and enthusiastic tone\"\n}\n"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and mentions multiple strengths of the store.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language throughout the review, mentioning specific strengths and no major weaknesses.\"\n}"
+    },
+    {
+      "actual": 2,
+      "pred": 2,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 2,\n  \"explanation\": \"Reviewer expresses disappointment and frustration with the bar, comparing it to Coldplay's music, which they find soulless and unoriginal.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses very positive language and mentions specific enjoyable experiences.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives and enthusiastic language to describe their experience.\"\n}\n"
+    },
+    {
+      "actual": 3,
+      "pred": 4,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 4,\n  \"explanation\": \"Reviewer had a mostly positive experience, but had a minor complaint about the server.\"\n}"
+    },
+    {
+      "actual": 5,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n  \"predicted_stars\": 5,\n  \"explanation\": \"Reviewer uses superlatives and expresses strong desire to have the experience more often.\"\n}"
+    },
+    {
+      "actual": 4,
+      "pred": 5,
+      "valid_json": true,
+      "raw": "{\n    \"predicted_stars\": 5,\n    \"explanation\": \"Reviewer uses superlatives such as 'BEST', 'screaming deal', and 'excellent' to describe their experience.\"\n}\n"
+    }
+  ]
+}
