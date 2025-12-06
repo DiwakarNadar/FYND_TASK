@@ -94,11 +94,11 @@ Each submission generates:
 # 🔗 Live Links (Insert)
 
 **User Dashboard:**  
-`https://your-link/user`  
+`(https://fynd-task2.onrender.com/admin_dashboard/)`  
 ![User Dashboard](images/User_Dashboard.png)
 
 **Admin Dashboard:**  
-`https://your-link/admin_dashboard`  
+`(https://fynd-task2.onrender.com/admin_dashboard/)`  
 ![Admin Dashboard](images/admin_dashboard.png)
 
 ---
