@@ -40,7 +40,7 @@ Model Used: **LLaMA-3.1-70B-Instruct (OpenRouter)**
 ## 📈 Plots
 Add image from notebook:
 
-`![Task 1 Plot](/images/plots.png)`
+![Visuals](images/plots.png)
 
 ---
 
