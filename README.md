@@ -1,172 +1,140 @@
-# ⭐ Task 1 — Rating Prediction via Prompting
-🎯 Objective
+# ⭐ FYND – AI Intern Assessment  
+## 🚀 Task 1 & Task 2 Combined Project
 
-Build an LLM-based classifier that predicts a Yelp review rating (1–5 stars) purely through prompting and returns strict JSON:
+# 🌟 Task 1 — Rating Prediction via Prompting
 
+## 🎯 Objective
+Build an LLM-based classifier that predicts Yelp review ratings (1–5 stars) using prompting only.
+
+```json
 {
   "predicted_stars": 4,
   "explanation": "Brief reasoning"
 }
+```
 
+## 🧠 Approach Overview
+Three custom prompts were developed:
+- **Prompt A — Strict JSON Instruction**
+- **Prompt B — Few-Shot Examples**
+- **Prompt C — Rubric-Based Rating Criteria**
 
-The task requires:
+Model Used: **LLaMA-3.1-70B-Instruct (OpenRouter)**
 
-Designing three different prompting strategies
+## 🧪 Steps Performed
+1. Sampled 200 Yelp reviews  
+2. Designed 3 prompting strategies  
+3. Queried LLM for predictions  
+4. Parsed JSON outputs  
+5. Measured accuracy, JSON validity & consistency  
+6. Generated comparison tables and charts  
 
-Comparing accuracy, JSON validity, and consistency
+## 📊 Evaluation Results
 
-Running evaluation on ~200 sampled reviews
+| Prompt | Accuracy | JSON Validity |
+|--------|----------|---------------|
+| A | 0.590 | 0.910 |
+| B | 0.615 | 0.915 |
+| C | 0.625 | 0.940 |
+
+➡️ Prompt C achieves best results due to clear rubric instructions.
 
-Providing a structured analysis
+## 📈 Plots
+Add image from notebook:
 
-🧠 Approach Summary
+`![Task 1 Plot](images/plots.png)`
 
-Three prompts were designed:
+---
 
-Prompt A – Strict JSON Instruction
+# 🛠️ Task 2 — AI-Powered Feedback System (Django Web App)
 
-Prompt B – Few-Shot Examples
+## 🎯 Objective
+Build and deploy a full-stack system with:
+- **User Dashboard** → Submit rating, review, get AI response  
+- **Admin Dashboard** → View summaries, actions & analytics  
 
-Prompt C – Rubric-Based Rating Criteria
+## 🧠 System Architecture
 
-Each prompt was executed on 200 Yelp reviews using LLaMA-3.1-70B-Instruct (OpenRouter) with deterministic settings.
+| Layer | Technology |
+|-------|------------|
+| Backend | Django + DRF |
+| LLM | LLaMA-3.1-70B (OpenRouter) |
+| DB | SQLite |
+| Frontend | Django Templates |
+| Hosting | Render |
 
-JSON robustness increased as prompt structure became more explicit.
+## 🏗️ Implementation Steps
+### 1️⃣ Backend & APIs
+Created `Submission` model storing:
+- user_rating  
+- user_review  
+- ai_response  
+- ai_summary  
+- ai_actions  
 
-📌 Steps
+API Endpoints:
+- `POST /api/submit/`
+- `GET /api/submissions/`
 
-Load Yelp dataset & sample 200 entries
+### 2️⃣ LLM Processing
+Each submission generates:
+- Friendly reply  
+- Summary  
+- Business actions  
 
-Define three prompting strategies
+### 3️⃣ Dashboards
+- **User:** Clean UI, AI response display  
+- **Admin:** Submission list, analytics  
 
-Call LLM for each review
+### 4️⃣ Deployment
+- Render deployment  
+- Environment variables configured  
+- OpenRouter headers added  
 
-Parse JSON outputs & measure validity
+---
 
-Compute:
+# 🔗 Live Links (Insert)
 
-Accuracy
+**User Dashboard:**  
+`https://your-link/user`  
+![User Dashboard](images/User_dashboard.png)
 
-JSON Validity Rate
+**Admin Dashboard:**  
+`https://your-link/admin_dashboard`  
+![Admin Dashboard](images/admin_dashboard.png)
 
-Behavioral consistency
+---
 
-Generate plots & comparison tables
+# ✅ Features Summary
 
-📊 Evaluation Results
-🔹 Accuracy Comparison
-Prompt	Accuracy	JSON Validity
-A	0.590	0.910
-B	0.615	0.915
-C	0.625	0.940
+### User Dashboard
+- ⭐ Star rating selector  
+- 📝 Review submission  
+- 🤖 AI-generated response  
 
-📌 Prompt C performed best because rubric-based guidance reduced ambiguity.
+### Admin Dashboard
+- 📄 All submissions  
+- ✂ AI summaries  
+- 💡 Action suggestions  
+- 📊 Analytics  
 
-📈 Plots (Insert Image Here)
+---
 
-Add image from notebook (e.g., accuracy_plot.png)
+# 📦 Repository Structure
 
-![Task 1 Accuracy Plot](./Task2/feedback/plots.png)
+```
+Task1/
+ ├── OpenRouter.ipynb
+ ├── yelp.csv
+ └── task1_outputs/
 
-# 🛠️ Task 2 — AI-Powered Feedback System (Django)
-🎯 Objective
+Task2/
+ ├── feedback/
+ ├── templates/
+ ├── manage.py
+ └── requirements.txt
+```
 
-Build and deploy a two-dashboard web app where users submit ratings & reviews and receive an AI-generated response, while admins view summaries, actions, and analytics.
+---
 
-Includes:
-
-User Dashboard
-
-Admin Dashboard
-
-AI response generation
-
-Review summarization
-
-Suggested actions
-
-Persistent storage
-
-Deployment
-
-🧠 System Architecture
-
-Backend: Django + Django REST Framework
-
-Database: SQLite
-
-LLM: LLaMA 3.1 70B (OpenRouter)
-
-Frontend: Django Templates
-
-Deployment: Render
-
-OpenRouter headers were configured for production (Referer, X-Title, X-Request-ID, etc.) to avoid 401 errors.
-
-📋 Steps
-1️⃣ Build Backend & Models
-
-Submission model
-
-API endpoints (/api/submit/, /api/submissions/)
-
-2️⃣ Implement LLM Logic
-
-AI reply
-
-Summary
-
-Business actions
-
-3️⃣ Build Dashboards
-
-User: review form + AI response display
-
-Admin: list with summary + actions + analytics
-
-4️⃣ Deploy on Render
-
-Add environment variables
-
-Add correct OpenRouter headers
-
-Configure static files
-
-🔗 Live Links
-
-(Insert your final deployment links here)
-
-🌐 User Dashboard
-
-👉 https://your-url/user
-
-(Insert screenshot)
-
-![User Dashboard](./Task2/feedback/User_dashboard.png)
-
-🔐 Admin Dashboard
-
-👉 https://your-url/admin_dashboard
-
-(Insert screenshot)
-
-![Admin Dashboard](./Task2/feedback/admin_dashboard.png)
-
-📝 Features
-✅ User Dashboard
-
-Submit rating & review
-
-Real-time AI-generated friendly response
-
-Clear, simple UI
-
-✅ Admin Dashboard
-
-View all submissions
-
-AI-generated summaries
-
-Suggested actions
-
-Total count & average rating
+# 🎉 End of README
