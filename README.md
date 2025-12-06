@@ -97,7 +97,7 @@ Each submission generates:
 
 **User Dashboard:**  
 `https://your-link/user`  
-![User Dashboard](images/User_dashboard.png)
+![User Dashboard](images/User_Dashboard.png)
 
 **Admin Dashboard:**  
 `https://your-link/admin_dashboard`  
