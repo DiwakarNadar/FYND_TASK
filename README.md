@@ -1,5 +1,3 @@
-# ⭐ FYND – AI Intern Assessment  
-
 
 # 🌟 Task 1 — Rating Prediction via Prompting
 
@@ -42,7 +40,7 @@ Model Used: **LLaMA-3.1-70B-Instruct (OpenRouter)**
 ## 📈 Plots
 Add image from notebook:
 
-`![Task 1 Plot](images/plots.png)`
+`![Task 1 Plot](/images/plots.png)`
 
 ---
 
