@@ -1,5 +1,5 @@
 # ⭐ FYND – AI Intern Assessment  
-## 🚀 Task 1 & Task 2 Combined Project
+
 
 # 🌟 Task 1 — Rating Prediction via Prompting
 
