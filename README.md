@@ -33,9 +33,9 @@ Model Used: **LLaMA-3.1-70B-Instruct (OpenRouter)**
 
 | Prompt | Accuracy | JSON Validity |
 |--------|----------|---------------|
-| A | 0.590 | 0.910 |
-| B | 0.615 | 0.915 |
-| C | 0.625 | 0.940 |
+| A      | 0.590    | 0.910         |
+| B      | 0.615    | 0.915         |
+| C      | 0.625    | 0.940         |
 
 ➡️ Prompt C achieves best results due to clear rubric instructions.
 
@@ -130,6 +130,7 @@ Task1/
 
 Task2/
  ├── feedback/
+ ├── task2_backend/
  ├── templates/
  ├── manage.py
  └── requirements.txt
